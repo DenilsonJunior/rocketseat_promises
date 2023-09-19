@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>Github Favorites</title>
 </head>
 <body>
@@ -12,7 +16,7 @@
         <header>
             <h1>Github Favorites</h1>
             <div class="search">
-                <label for="input-search">Usúario do Github</label>
+                <label class="sr-only" for="input-search">Usúario do Github</label>
                 <input id="input-search" type="text" placeholder="Usúario do Github">
                 <button>&plus;</button>
             </div>
@@ -30,7 +34,7 @@
             <tbody>
                 <tr>
                     <td class="user">
-                        <img src="https://github.com/DenilsonJunior.png" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/45171451?v=4" alt="">
                         <a target="_blank" href="https://github.com/DenilsonJunior">
                             <p>Devnilson</p>
                             <span>devnilson</span>
@@ -43,13 +47,13 @@
                         958
                     </td>
                     <td>
-                        <button>&times</button>
+                        <button class="remove">&times</button>
                     </td>
                 </tr>
 
                 <tr>
                     <td class="user">
-                        <img src="https://github.com/CarlosAlberto1991.png" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/117331836?v=4" alt="">
                         <a target="_blank" href="https://github.com/CarlosAlberto1991">
                             <p>Carlos Mamão</p>
                             <span>Carlos Mamão</span>
@@ -62,7 +66,7 @@
                         651
                     </td>
                     <td>
-                        <button>&times</button>
+                        <button class="remove">&times</button>
                     </td>
                 </tr>
             </tbody>

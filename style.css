@@ -126,6 +126,17 @@ td.user {
     gap: 1rem;
 }
 
+@media (max-width: 420px) {
+    header {
+        flex-direction: column;
+    }
+    .search {
+        margin: 1rem 0 0;
+    }
+    td.user {
+        flex-direction: column;
+    }
+}
 
 td.user img {
     border-radius: 50%;
